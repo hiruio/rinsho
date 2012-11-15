@@ -6,7 +6,6 @@ Template Name: ドミニカレポート
 <?php get_header(); ?>
 
 <div id="main">
-<?php get_sidebar(); ?>
 
 <h1>ドミニカレポート</h1>
 

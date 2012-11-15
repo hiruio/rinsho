@@ -17,6 +17,14 @@ header {
 width: 950px;
 }
 
+header:after {
+content: "";
+clear: both;
+height: 0;
+display: block;
+visibility: hidden;
+}
+
 #nav {  
 clear: both;  
 margin: 0 auto;  
@@ -82,7 +90,7 @@ width: 140px;
 }
 
 #contents{
-float: right;
+margin:auto;
 width: 750px;
 }
 

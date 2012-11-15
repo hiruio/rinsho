@@ -2,11 +2,11 @@
 
 
 <div id="main">
-<?php get_sidebar(); ?>
+
 
 <div id="contents">
 <?php $paged = get_query_var( 'paged' ); ?>
-<?php query_posts('posts_per_page=4&paged='.$paged) ?>
+<?php query_posts('cat=3&posts_per_page=4&paged='.$paged) ?>
 <?php
 if(have_posts()) : while ( have_posts() ) : the_post();
 ?>
